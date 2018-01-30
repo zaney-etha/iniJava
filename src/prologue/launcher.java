@@ -1,5 +1,5 @@
 package prologue;
 
-public class launcher {
+public class Launcher {
 
 }
