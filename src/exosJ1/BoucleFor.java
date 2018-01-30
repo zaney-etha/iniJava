@@ -31,12 +31,6 @@ public class BoucleFor {
 		System.out.print("\n");		
 	}	
 	
-	static void square(int n) {
-		for(int i = 0; i < n; i++) {
-			line(n);
-		}
-	}
-	
 	static void emptySquare(int n) {
 		for(int i = 0; i < n; i++) {
 			if(i == 0 || i == (n - 1)) {
@@ -45,6 +39,12 @@ public class BoucleFor {
 			} else {
 				emptyLine(n);				
 			}			
+		}
+	}
+	
+	static void square(int n) {
+		for(int i = 0; i < n; i++) {
+			line(n);
 		}
 	}
 	
