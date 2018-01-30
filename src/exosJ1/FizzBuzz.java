@@ -6,23 +6,25 @@ public class FizzBuzz {
 			boolean fizzOrBuzz = false;
 
 			if (var % 3 == 0) {
-				System.out.print("Fizz");
+				System.out.print("Fizz ");
 				fizzOrBuzz = true;
 
 			}
 
 			if (var % 5 == 0) {
-				System.out.print("Buzz");
+				System.out.print("Buzz ");
 				fizzOrBuzz = true;
 
 			}
 
-			if (fizzOrBuzz) {
-				System.out.println();
-
-			} else {
-				System.out.println(String.valueOf(var));
-
+			if (fizzOrBuzz == false) {
+				System.out.print(String.valueOf(var + " "));
+				
+			}
+			
+			if (var%10 == 9) {
+				System.out.print("\n");
+				
 			}
 
 		}
